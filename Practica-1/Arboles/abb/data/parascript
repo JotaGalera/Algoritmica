@@ -1,0 +1,3 @@
+gnuplot>f(x) = (a*x*log(x)/log(2)) +b
+gnuplot>fit f(x)"tiempos.dat"via a,b
+plot "tiempos.dat", f(x)

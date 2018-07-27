@@ -1,0 +1,36 @@
+
+
+*******************************************************************************
+Sat Mar 17 20:55:11 2018
+
+
+FIT:    data read from "./data/tiempo_average_case_usoapo.dat"
+        format = z
+        #datapoints = 50
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = (a*(log(x)/log(2))+b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.1691052659e+04   0.00e+00  1.01e+01    1.000000e+00   1.000000e+00
+   5 3.4672146434e-04  -2.54e-03  1.01e-04    4.476003e-03  -5.269472e-02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.000346721
+rel. change during last iteration : -2.54315e-08
+
+degrees of freedom    (FIT_NDF)                        : 48
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00268763
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.22336e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.004476         +/- 0.0002993    (6.687%)
+b               = -0.0526947       +/- 0.004282     (8.126%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.996  1.000 

@@ -1,0 +1,114 @@
+
+
+*******************************************************************************
+Mon Mar  5 19:06:34 2018
+
+
+FIT:    data read from "data/burbuja/tiempo_worst_case_burbuja.dat"
+        format = z
+        #datapoints = 30
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**2 + b*x + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.5033752448e+01   0.00e+00  2.72e-01    1.124277e-09  -1.514734e-08   1.744150e-03
+   6 2.2883390484e-03  -3.42e-01  2.72e-07    3.285210e-09   4.390325e-07   1.197974e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.00228834
+rel. change during last iteration : -3.41575e-06
+
+degrees of freedom    (FIT_NDF)                        : 27
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00920616
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.47533e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.28521e-09      +/- 2.513e-11    (0.7648%)
+b               = 4.39033e-07      +/- 8.027e-07    (182.8%)
+c               = 0.00119797       +/- 0.005398     (450.6%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.970  1.000 
+c               0.770 -0.882  1.000 
+
+
+*******************************************************************************
+Mon Mar  5 19:08:28 2018
+
+
+FIT:    data read from "data/seleccion/tiempo_worst_case_seleccion.dat"
+        format = z
+        #datapoints = 30
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**2 + b*x + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.4236953372e+01   0.00e+00  7.95e-01    3.285210e-09   4.390325e-07   1.197974e-03
+   5 1.5508768835e-04  -7.22e-01  7.95e-06    1.158524e-09   3.538991e-08   9.311173e-04
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.000155088
+rel. change during last iteration : -7.21604e-06
+
+degrees of freedom    (FIT_NDF)                        : 27
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00239666
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.74399e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.15852e-09      +/- 6.541e-12    (0.5646%)
+b               = 3.53899e-08      +/- 2.09e-07     (590.5%)
+c               = 0.000931117      +/- 0.001405     (150.9%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.970  1.000 
+c               0.770 -0.882  1.000 
+
+
+*******************************************************************************
+Mon Mar  5 19:10:36 2018
+
+
+FIT:    data read from "data/insercion/tiempo_worst_case_insercion.dat"
+        format = z
+        #datapoints = 30
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**2 + b*x + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.7515977662e+01   0.00e+00  2.80e-01    1.158524e-09   3.538991e-08   9.311173e-04
+   6 4.9433033151e-03  -2.06e-02  2.80e-07    3.034647e-09  -1.675779e-06   9.950437e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.0049433
+rel. change during last iteration : -2.06321e-07
+
+degrees of freedom    (FIT_NDF)                        : 27
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0135309
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000183085
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.03465e-09      +/- 3.693e-11    (1.217%)
+b               = -1.67578e-06     +/- 1.18e-06     (70.41%)
+c               = 0.00995044       +/- 0.007934     (79.74%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.970  1.000 
+c               0.770 -0.882  1.000 
